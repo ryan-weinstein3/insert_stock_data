@@ -1,0 +1,7 @@
+{
+	"name": "stock_mapping",
+	"version": "1.0.0",
+	"description": "stock mapping app",
+	"main": "stock_mapping.js",
+	"scripts": {"start": "node stock_mapping.js"}
+}
