@@ -1,5 +1,5 @@
 {
-	"name": "stock_mapping",
+	"name": "stockmapping",
 	"version": "1.0.0",
 	"description": "stock mapping app",
 	"main": "stock_mapping.js",
