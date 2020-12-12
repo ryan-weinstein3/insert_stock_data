@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<title>Stock Ticker Mapping</title>
+		<style>
+			body {text-align:center;}
+		</style>
+	</head>
+	<body>
+		<h1>Search for Companies and Stock Tickers</h1>
+		<h3>Search By:</h3>
+		<form action="https://stockmapping.herokuapp.com/" method='get' >
+			<p> 
+				<input type="radio"  name="query_by" value = "ticker" checked="checked"/>Stock Ticker  
+				<input type="radio"  name="query_by" value = 'name'/>Company Name
+			</p>
+			<p><input type="text" name="query"/></p>
+			<input type = "submit" value = "Search"/>
+		</form>
+	</body>
+</html>
