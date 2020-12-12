@@ -6,7 +6,6 @@
 	"scripts": {"start": "node stock_mapping.js"},
 	"dependencies": {
 		"module": "http",
-		"module": "url",
-		//"module": "mongodb"
+		"module": "url"
 	}
 }
