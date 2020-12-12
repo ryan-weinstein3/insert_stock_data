@@ -1,11 +1,14 @@
 {
 	"name": "stockmapping",
 	"version": "1.0.0",
-	"description": "load data for stock mapping app",
+	"description": "stock mapping app",
 	"main": "stock_mapping.js",
-	"scripts": {"start": "node stock_mapping.js"},
+	"scripts": {
+		"start": "node stock_mapping.js"
+	},
 	"dependencies": {
-		"module": "http",
-		"module": "url"
+		"http": "0.0.1-security",
+		"mongodb": "^3.6.3",
+		"url": "^0.11.0"
 	}
 }
