@@ -1,4 +1,7 @@
 var http = require('http');
+var url = require('url');
+const MongoClient = require('mongodb').MongoClient;
+let db_url = "mongodb+srv://rweinstein:stoneharbor99@cluster0.enwy9.mongodb.net/stocks?retryWrites=true&w=majority"
 var port = process.env.PORT || 3000;
 console.log("This goes to the console window");
 http.createServer(function (req, res) {
